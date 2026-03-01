@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}Result{% endblock %}
+{% block content %}
+
+<div class="alert alert-success">
+  <h4 class="alert-heading">Quiz Completed!</h4>
+  <p>Your Score: <strong>{{ score }} / {{ total }}</strong></p>
+  <hr>
+  <a href="/" class="btn btn-secondary">Back to Home</a>
+</div>
+
+{% endblock %}

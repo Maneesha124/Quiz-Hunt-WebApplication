@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block title %}Dashboard{% endblock %}
+{% block content %}
+
+<h2 class="mb-4">Admin Dashboard</h2>
+<div class="row">
+  <div class="col-md-4">
+    <div class="card text-white bg-primary mb-3">
+      <div class="card-body">
+        <h5 class="card-title">Total Quizzes</h5>
+        <p class="card-text fs-4">{{ quiz_count }}</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card text-white bg-success mb-3">
+      <div class="card-body">
+        <h5 class="card-title">Total Questions</h5>
+        <p class="card-text fs-4">{{ question_count }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

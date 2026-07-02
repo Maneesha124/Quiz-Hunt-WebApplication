@@ -32,7 +32,7 @@ Quiz Hunt is a web application built with **Django** and **PostgreSQL** that all
 | Component | Technology |
 |----------|------------|
 | Backend | Django (Python) |
-| Database | PostgreSQL |
+| Database | SQLite |
 | Frontend | HTML, CSS, Bootstrap |
 | Server | Django Development Server |
 
@@ -56,6 +56,6 @@ QUIZSITE/
 │ ├── asgi.py
 │ └── wsgi.py
 │
-├── db.sqlite3 (if using SQLite locally)
+├── db.sqlite3
 ├── manage.py
 └── README.md
